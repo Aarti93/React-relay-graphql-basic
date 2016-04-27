@@ -1,0 +1,48 @@
+.containerDiv {
+  height: 100vh;
+  background-color: #F3F5F8;
+  padding-top: 5%;
+
+  .container {
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-left: 20%;
+    .headerComponent {
+      .mainHeading {
+        font-size: 20pt;
+        padding-bottom: 8px;
+        padding-top: 30px;
+      }
+      .subHeading {
+        font-size: 11pt;
+        color: #545151;
+      }
+    }
+    .mainAddress {
+      margin-top: 5%;
+      border-top: 1px solid #C5C4C4;
+      padding-top: 2%;
+      padding-left: 3%;
+      .addressHeading {
+        font-size: 14pt;
+      }
+      .addressComponent {
+        padding-top: 2%;
+        .address {
+          font-size: 11pt;
+          color: grey;
+        }
+      }
+      .address {
+        font-size: 11pt;
+        color: grey;
+      }
+      .workLocationNodes {
+        margin-bottom: 1px solid #C5C4C4;
+      }
+    }
+  }
+}
